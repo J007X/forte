@@ -1,12 +1,11 @@
 # myst requires sphinx <4
-sphinx==3.5.4
-myst-parser==0.17.2
-sphinx-rtd-theme == 1.1.1
+sphinx<4
+myst-parser>=0.14.0
+sphinx-rtd-theme >= 0.5.0
 Pygments >= 2.1.1
 funcsigs~=1.0.2
 mypy_extensions~=0.4.1
 sphinxcontrib-spelling
-docutils==0.16
 sphinx-comments
 
 # Pipeline remote features
